@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100vw;
+  height: 80vh;
+}
+
+.navbar {
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 30%;
+  margin: 0 auto;
+
+  display: flex;
+  margin-top: 1rem;
+}
+
+.content__card {
+  width: 70%;
+  background-color: coral;
+  border: 2px dashed black;
+}
+
+.content__book-box {
+  background-color: darkorange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40vw;
+  position: sticky;
+  top: 2rem;
+  height: 10rem;
+
+  order: 1;
+}
